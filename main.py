@@ -6,9 +6,15 @@ from flask import Flask, request, redirect, url_for, render_template, send_from_
 
 app = Flask(__name__)
 
-#roomate network_scan
+#resume
 @app.route('/',methods=['GET', 'POST'])
 def show_page():
+    return render_template("resume.html")
+
+
+#roomate network_scan
+@app.route('/roomates',methods=['GET', 'POST'])
+def roomates():
     return render_template("roomates.html")
 
 
@@ -22,8 +28,17 @@ def scan():
 
 
 #grace coin_flip
+
+@app.route("/coin")
+def coin():
+	return render_template("coin_flip.html")
+
+@app.route("/russellisacutie")
+def russellisacutie():
+	return render_template("coin_flip.html")
+
 @app.route("/flip")
-def hello():
+def flip():
 	return render_template("coin_flip.html")
 
 @app.route("/text")

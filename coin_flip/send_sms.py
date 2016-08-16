@@ -1,6 +1,7 @@
 # Download the twilio-python library from http://twilio.com/docs/libraries
 from twilio.rest import TwilioRestClient
 from random import *
+import json
 
 # Find these values at https://twilio.com/user/account
 account_sid = "AC6d430b1fae20daa6dfa9907ac1576456"
@@ -20,7 +21,10 @@ class sendText():
 		if num>=.5:
 		    result="The flip is heads. Russell has to drive :*"
 		else:
-		    result="the flip is tails. Grace has to drive :*"
+		    result="The flip is tails. Grace has to drive :*"
 		print result
 		for items in numbers:
 		     message = client.messages.create(to=items, from_="+13304224104", body =result)
+		result=[{"winner":result}]
+		result=json.dumps(result)
+		return result

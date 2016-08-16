@@ -6,6 +6,6 @@ class Engine_coin_flip():
 
 	def run(self):
 		send=sendText()
-		send.send_text()
+		return send.send_text()
 
 
