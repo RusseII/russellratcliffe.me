@@ -153,24 +153,18 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	background: url(https://lh3.googleusercontent.com/-W6Vqp50VPP2Ge5tXhR6xViyPlw7UyJkyRQ-bezL_htMWRiG71oseElaZwvHfkpbvq6rsaJOUqS_c8cV2FBKh3jzfOwrhLXpxirOb5WLXoDiJKIwHzKaqGSE_LRMG1PGY3DMFb4TLlRQfmKRTL1mWfiW_1WayYDqoAegLcquWWqS7dfp8QTex-5qPz_QYLq4jbZXgtCtg5KcHlG0e2B0JrMHKhMewLL1GSNILsu0yX-nhLx1trbbx-wqonY4a5WfFh8mZxITzkr1eAucCirXYNUgNZD_LESyqtYDFXNbcS6gEEhZ6T0XGHfnLUwDxlCodxRmWAFURduruBCAzej8M8h_rWXbk5LgaMKncsdAVlXdIUUAC8cMZoRxFh-sAE3rUq-rnN1A53tTIlYM5sXpX7MOnpc70EvC9eQXNR4HDensoinagimGhG8HixKBHin1RQZ2K-VuKtkJNuEh3artyj9a7Dcoewjck8oHDmQaY7CJEP7hAd-eCkZrlD1fHe-MdTjKISfQHyxte38ldYil5wsPN57_d2MrvXIDie420CD3MMU8UHd6MzPPVkQBZT6aB0_ONtECZM5uZA3Edl5Pi2gshegM0JU=w960-h1280-no) no-repeat center top;
 	margin-top: 60px;
 	padding-top:140px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 1200px;
-	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+	min-height: 600px;
+	width: 50%;
 	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    
 }
 
 #headerwrap h1 {
