@@ -13,9 +13,9 @@ def show_page():
 
 
 #roomate network_scan
-@app.route('/roomates',methods=['GET', 'POST'])
-def roomates():
-    return render_template("roomates.html")
+@app.route('/roommates',methods=['GET', 'POST'])
+def roommates():
+    return render_template("roommates.html")
 
 
 @app.route('/scan',methods=['GET'])

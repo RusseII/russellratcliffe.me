@@ -1,4 +1,4 @@
-from scan import findRoomates
+from scan import findRoommates
 
 
 class Engine_network_scan():
@@ -6,5 +6,5 @@ class Engine_network_scan():
         print "created engine object"
 
     def execute(self):
-        roomies=findRoomates()
-        return roomies.find_roomates()
+        roomies=findRoommates()
+        return roomies.find_roommates()

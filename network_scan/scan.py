@@ -1,11 +1,11 @@
 import subprocess
 import json
 
-class findRoomates():
+class findRoommates():
     def __init__(self):
-        print "created findRoomates object"
+        print "created findRoommates object"
 
-    def find_roomates(self):
+    def find_roommates(self):
         Roos="Russell is not home"
         Grace="Grace is not in my appartment"
         AJ="AJ is not Home"
@@ -26,15 +26,15 @@ class findRoomates():
 
 
         if '12:b3:b7:d2:e2:3d' in open('allout.txt').read():
-        Grace="Grace is at my appartment"
+            Grace="Grace is at my appartment"
         
 
-        roomates = [
+        roommates = [
         {"room":Roos,},
         {"room":AJ,},
         {"room":Orion,},
         {"room":Grace,}
         ]
-        roomates=json.dumps(roomates)
-        print roomates
-        return roomates
+        roommates=json.dumps(roommates)
+        print roommates
+        return roommates
