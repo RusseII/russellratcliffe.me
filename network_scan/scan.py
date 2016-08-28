@@ -18,7 +18,7 @@ class findRoommates():
         if '00:a0:c6:eb:5c:6f' in open('allout.txt').read():
             Roos="Russell is home"
 
-        if '00:a0:c6:eb:5c:6ftest' in open('allout.txt').read():
+        if '9c:fc:01:d0:a2:4c' in open('allout.txt').read():
             AJ="AJ is home"
 
         if '00:a0:c6:eb:5c:6ftest' in open('allout.txt').read():
